@@ -9,6 +9,7 @@ const movieImages = [
   "http://fims.kofic.or.kr/upload/up_img/cleansing/50/mov_20030350_16.jpg",
   "https://coffeeandgeeks.files.wordpress.com/2015/01/star-wars-the-force-awakens-fan-poster-inspired-by-drew-struzan.jpeg"
 ];
+
 class App extends Component {
   render() {
     return (
