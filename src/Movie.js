@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import "./Movie.css";
 
 function Movie({ title, poster }) {
@@ -15,13 +15,13 @@ function MoviePoster({ poster }) {
   return <img src={poster} alt="Movie Poster" />;
 }
 
-Movie.PropTypes = {
-  title: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired
+Movie.propTypes = {
+  title: propTypes.string.isRequired,
+  poster: propTypes.string.isRequired
 };
 
-MoviePoster.PropTypes = {
-  poster: PropTypes.string.isRequired
+MoviePoster.propTypes = {
+  poster: propTypes.string.isRequired
 };
 
 export default Movie;
