@@ -20,7 +20,7 @@
 
 .Movie__Column:last-child {
   padding: 20px 0;
-  widows: 60%;
+  width: 60%;
 }
 
 .Movie h1 {
@@ -34,7 +34,7 @@
   margin-bottom: 20px;
 }
 
-.Moivie__Genres .Movie__Genre {
+.Movie__Genres .Movie__Genre {
   margin-right: 10px;
   color: #b4b5bd;
 }
