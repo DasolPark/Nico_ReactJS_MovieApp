@@ -1,7 +1,7 @@
-import React from "react";
-import propTypes from "prop-types";
-import LinesEllipsis from "react-lines-ellipsis";
-import "./Movie.css";
+import React from 'react';
+import propTypes from 'prop-types';
+import LinesEllipsis from 'react-lines-ellipsis';
+import './Movie.css';
 
 function Movie({ title, poster, genres, synopsis }) {
   return (
@@ -23,7 +23,7 @@ function Movie({ title, poster, genres, synopsis }) {
             ellipsis="..."
             trimRight
             basedOn="letters"
-          />{" "}
+          />{' '}
         </p>
       </div>
     </div>
