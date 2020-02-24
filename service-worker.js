@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MovieApp_ReactJS-Nico-/precache-manifest.81b5907ba174dcd8375aed9be3128ed1.js"
+  "/Nico_ReactJS_MovieApp/precache-manifest.e0b2dc1a52df1c701fffec80bdb7c566.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MovieApp_ReactJS-Nico-/index.html", {
+workbox.routing.registerNavigationRoute("/Nico_ReactJS_MovieApp/index.html", {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

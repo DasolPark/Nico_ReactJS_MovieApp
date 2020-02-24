@@ -1,13 +1,13 @@
 {
-  "main.css": "/MovieApp_ReactJS-Nico-/static/css/main.73f9eb77.chunk.css",
-  "main.js": "/MovieApp_ReactJS-Nico-/static/js/main.fff354c6.chunk.js",
-  "main.js.map": "/MovieApp_ReactJS-Nico-/static/js/main.fff354c6.chunk.js.map",
-  "static/js/1.dc879b79.chunk.js": "/MovieApp_ReactJS-Nico-/static/js/1.dc879b79.chunk.js",
-  "static/js/1.dc879b79.chunk.js.map": "/MovieApp_ReactJS-Nico-/static/js/1.dc879b79.chunk.js.map",
-  "runtime~main.js": "/MovieApp_ReactJS-Nico-/static/js/runtime~main.8af942b3.js",
-  "runtime~main.js.map": "/MovieApp_ReactJS-Nico-/static/js/runtime~main.8af942b3.js.map",
-  "static/css/main.73f9eb77.chunk.css.map": "/MovieApp_ReactJS-Nico-/static/css/main.73f9eb77.chunk.css.map",
-  "index.html": "/MovieApp_ReactJS-Nico-/index.html",
-  "precache-manifest.81b5907ba174dcd8375aed9be3128ed1.js": "/MovieApp_ReactJS-Nico-/precache-manifest.81b5907ba174dcd8375aed9be3128ed1.js",
-  "service-worker.js": "/MovieApp_ReactJS-Nico-/service-worker.js"
+  "main.css": "/Nico_ReactJS_MovieApp/static/css/main.c920e2d8.chunk.css",
+  "main.js": "/Nico_ReactJS_MovieApp/static/js/main.52fb060c.chunk.js",
+  "main.js.map": "/Nico_ReactJS_MovieApp/static/js/main.52fb060c.chunk.js.map",
+  "static/js/1.dc879b79.chunk.js": "/Nico_ReactJS_MovieApp/static/js/1.dc879b79.chunk.js",
+  "static/js/1.dc879b79.chunk.js.map": "/Nico_ReactJS_MovieApp/static/js/1.dc879b79.chunk.js.map",
+  "runtime~main.js": "/Nico_ReactJS_MovieApp/static/js/runtime~main.46110721.js",
+  "runtime~main.js.map": "/Nico_ReactJS_MovieApp/static/js/runtime~main.46110721.js.map",
+  "static/css/main.c920e2d8.chunk.css.map": "/Nico_ReactJS_MovieApp/static/css/main.c920e2d8.chunk.css.map",
+  "index.html": "/Nico_ReactJS_MovieApp/index.html",
+  "precache-manifest.e0b2dc1a52df1c701fffec80bdb7c566.js": "/Nico_ReactJS_MovieApp/precache-manifest.e0b2dc1a52df1c701fffec80bdb7c566.js",
+  "service-worker.js": "/Nico_ReactJS_MovieApp/service-worker.js"
 }
