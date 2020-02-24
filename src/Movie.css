@@ -28,18 +28,7 @@
   font-weight: 600;
 }
 
-.Movie .Movie__Genres {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.Movie__Genres .Movie__Genre {
-  margin-right: 10px;
-  color: #b4b5bd;
-}
-
-.Movie .Movie__Synopsis {
+.Movie .Movie__Overview {
   text-overflow: ellipsis;
   color: #b4b5bd;
   overflow: hidden;

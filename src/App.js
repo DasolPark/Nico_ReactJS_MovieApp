@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./App.css";
-import Movie from "./Movie";
+import React, { Component } from 'react';
+import './App.css';
+import Movie from './Movie';
 
 class App extends Component {
   // Render: componentWillMount() -> render() -> componentDidMound()
@@ -14,14 +14,12 @@ class App extends Component {
 
   _renderMovies = () => {
     const movies = this.state.movies.map(movie => {
-      console.log(movie);
       return (
         <Movie
-          title={movie.title_english}
-          poster={movie.medium_cover_image}
+          title={movie.title}
+          poster={movie.poster_path}
           key={movie.id}
-          genres={movie.genres}
-          synopsis={movie.synopsis}
+          overview={movie.overview}
         />
       );
     });
@@ -37,18 +35,18 @@ class App extends Component {
 
   _callApi = () => {
     return fetch(
-      "https://yts.lt/api/v2/list_movies.json?sort_by=download_count"
+      `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_THEMOVIE_DB_API_KEY}`
     )
       .then(response => response.json())
-      .then(json => json.data.movies)
+      .then(json => json.results)
       .catch(err => console.log(err));
   };
 
   render() {
     const { movies } = this.state;
     return (
-      <div className={movies ? "App" : "App--loading"}>
-        {movies ? this._renderMovies() : "Loading"}
+      <div className={movies ? 'App' : 'App--loading'}>
+        {movies ? this._renderMovies() : 'Loading'}
       </div>
     );
   }
