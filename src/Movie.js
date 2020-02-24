@@ -14,7 +14,7 @@ function Movie({ title, poster, overview }) {
         <div className="Movie__Overview">
           <LinesEllipsis
             text={overview}
-            maxLine="3"
+            maxLine="6"
             ellipsis="..."
             trimRight
             basedOn="letters"
